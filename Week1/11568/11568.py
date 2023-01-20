@@ -1,9 +1,10 @@
 import sys
+input = sys.stdin.readline
 
 # 카드의 개수 N
-N = int(sys.stdin.readline())
+N = int(input())
 # 카드 N개에 들어있는 정수가 공백(빈 칸)으로 구분되어 주어짐
-card_list = [int(x) for x in sys.stdin.readline().split()]
+card_list = [int(x) for x in input().split()]
 max_count = 0
 
 for i in range(N):
